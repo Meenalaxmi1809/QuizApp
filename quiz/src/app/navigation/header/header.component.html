@@ -1,0 +1,31 @@
+<mat-toolbar color="primary">
+    <mat-toolbar-row>
+    <div>
+        <span > TESTPRESS QUIZZ </span>
+    </div>
+        
+        <div fxFlex fxLayout="row" fxLayoutAlign="flex-end" fxHide.xs="true">
+            <ul fxLayout fxLayoutGap="10px" class="navigation-items header-font">
+                <li *ngIf="!isAuth">
+                    <a [routerLink]="'/Auth/signup'">
+                        
+                        Signup
+                    </a>
+                </li>
+                <li *ngIf="!isAuth">
+                    <a [routerLink]="'/Auth/login'">
+                        
+                        Login
+                    </a>
+                </li>
+                <li *ngIf="isAuth">
+                    <a class="logout" (click)="onLogout()">
+                        
+                        Logout
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </mat-toolbar-row>
+</mat-toolbar>
+<router-outlet></router-outlet>

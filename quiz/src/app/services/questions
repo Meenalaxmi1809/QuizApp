@@ -1,0 +1,15 @@
+[
+
+  { "id": 1, "text": "Which is the largest country in the world by population?","options":[]},
+
+  { "id": 2, "text": "When did the second world war end?", "answer1": "1945","options":[]},
+
+  { "id": 3, "text": "Which was the first country to issue paper currency?","options":[] },
+
+  { "id": 4, "text": "Which city hosted the 1996 Summer Olympics?","options":[] },
+
+  { "id": 5, "text": "Who invented telephone?","options":[]},
+
+  { "id": 6, "text": "Who invented telephone?","options":[]}
+
+]

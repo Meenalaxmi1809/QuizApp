@@ -1,0 +1,14 @@
+button {
+    margin: 10px
+}
+.row{
+    align-items: center;
+}
+
+  
+  .iscorrect {
+    background: #9ACD32;
+    color: white;
+  }
+  
+  
