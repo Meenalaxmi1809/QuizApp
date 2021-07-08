@@ -1,5 +1,5 @@
 # QuizApp
-For live Static hosting https://meenalaxmi1809.github.io/quiztextpress/
+For live Static hosting  https://meenalaxmi1809.github.io/QuizApp/
 
 Inorder to get questions clone this repo 
 i used mockable.io REST Api or getting questions and option.
